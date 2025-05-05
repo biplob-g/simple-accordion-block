@@ -1,0 +1,45 @@
+{
+  "apiVersion": 2,
+  "name": "sa/accordion",
+  "version": "1.0.0",
+  "title": "Simple Accordion",
+  "category": "sa-blocks",
+  "description": "simple Accordion allows you to create an accordion or faqs section easily.",
+  "supports": {
+    "html": false,
+    "anchor": true,
+    "customClassName": true
+  },
+  "keywords": [
+    "accordion",
+    "faq",
+    "accordion block"
+  ],
+  "example": {
+    "attributes": {
+      "heading": "Accordion Heading"
+    }
+  },
+  "providesContext": {
+    "sa/enableBoxShadow": "enableBoxShadow",
+    "sa/boxShadowPalette": "boxShadowPalette",
+    "sa/headingTag": "headingTag",
+    "sa/iconPosition": "iconPosition",
+    "sa/collapsedIcon": "collapsedIcon",
+    "sa/expandedIcon": "expandedIcon",
+    "sa/enableBadge": "enableBadge",
+    "sa/enableSubHeading": "enableSubHeading",
+    "sa/subHeadingTag": "subHeadingTag",
+    "sa/shVisibleOn": "shVisibleOn",
+    "sa/badgeVPosition": "badgeVPosition",
+    "sa/badgeHPosition": "badgeHPosition"
+  },
+  "textdomain": "simple-accordion-block",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": [
+    "file:./view.js",
+    "jquery"
+  ]
+}

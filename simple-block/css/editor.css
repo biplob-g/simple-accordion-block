@@ -1,0 +1,47 @@
+.sa__container.block-editor-block-list__layout {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+button.sa__add-accordion {
+    padding: 9px 20px;
+    border: none;
+    color: #fff;
+    background: #FB1A09;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.2s;
+    text-align: center;
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 20px;
+}
+
+button.sa__add-accordion:hover {
+    background: #FB1A09;
+}
+
+.wp-block-sa-accordion .sa__body {
+    border-left-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    display: block !important;
+}
+
+/* .wp-block-sa-accordion .sa__body.sa__active {
+    display: block;
+}
+
+.sa__icon .sa__expand {
+    display: none;
+}
+
+.sa__icon.sa__active_icon .sa__collapse {
+    display: none;
+}
+
+.sa__icon.sa__active_icon .sa__expand {
+    display: flex;
+} */
